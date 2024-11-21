@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Service Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Car Service Manager</h1>
+    </header>
+    <main>
+        <section id="appointment-section">
+            <h2>Book an Appointment</h2>
+            <form id="appointment-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="car-model">Car Model:</label>
+                <input type="text" id="car-model" name="car-model" required>
+                
+                <label for="date">Appointment Date:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <button type="submit">Book Appointment</button>
+            </form>
+        </section>
+        <section id="user-auth-section">
+            <h2>User Authentication</h2>
+            <button id="login-btn">Login</button>
+            <button id="signup-btn">Sign Up</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Car Service Manager</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
